@@ -1,0 +1,13 @@
+Ein neues Semester an der Universität hat begonnen!
+Als Tutor musst du mehrere Aufgaben erledigen, z. B. die Bewertung von
+Hausarbeiten deiner 8 Studenten zu zwei Übungen und das Lösen von 2 Rätseln.
+Der Kurs wird auf Englisch unterrichtet, daher wird von dir während des
+Semesters auch erwartet, dass du Fragen der Studenten auf Englisch beantwortest
+oder allgemein auf Englisch kommunizierst.
+All das kostet viel Energie, also musst du vielleicht zwischendurch eine Pause
+einlegen oder Schokolade essen.
+Und pass bei den Rätseln gut auf! Wenn du sie nicht lösen kannst,
+wirst du das Semester nicht erfolgreich beenden und das Spiel verlieren.
+P.S. Du kannst jederzeit die Leistungsübersicht mit dem Befehl "inspect report"
+einsehen oder das Spiel mit "exit" beenden.
+Viel Erfolg!

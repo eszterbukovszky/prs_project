@@ -1,0 +1,90 @@
+# README - Tutor im Semester-Spiel
+
+## Beschreibung
+
+Bei diesem textbasierten Python-Spiel übernimmt der Spieler die Rolle eines
+Tutors an einer Universität. Der Spieler muss die Arbeiten der 8 Studenten in
+zwei Runden bewerten, Noten eintragen. Nach Abschluss der Noteneintragung
+muss der Spieler zusätzliche Aufgaben in Form von Rätseln lösen, um
+Evaluationspunkte zu erhalten.
+
+Das Spiel kombiniert die Notenverwaltung mit zwei Feedback-Sitzungen. In der
+ersten Runde muss der Spieler das Thema von Sätzen erraten, in der zweiten
+Runde muss er einen Codesatz eingeben. Ziel ist es, durch das Lösen der
+Rätsel so viele Punkte wie möglich zu erhalten.
+
+Im Spiel stehen verschiedene Befehle zur Verfügung, um Noten einzutragen,
+Feedback-Sitzungen durchzuführen, den Status zu überprüfen und das Spiel
+zu steuern.
+
+## Dateien
+
+### Python-Dateien:
+
+1. **main.py**: Es ist die Hauptdatei des Spiels, die die Notenverwaltung und
+Feedback-Sitzungen steuert. Dies ist die Datei, in der das Spiel beginnt.
+
+2. **feedback_1.py**: Diese Datei definiert die erste Feedback-Sitzung, bei der
+der Spieler das Thema für die (maskierten) Sätze erraten muss. Der Spieler hat
+drei Versuche, um die richtigen Themen der (maskierten) Sätze zu erraten.
+
+3. **feedback_2.py**: Diese Datei enthält die zweite Feedback-Sitzung, in der
+der Spieler einen gültigen Codesatz eingeben muss. Auch hier hat der Spieler
+drei Versuche.
+
+4. **beschreibungen.py**: Diese Datei enthält die Definitionen verschiedener
+Funktionen, die während des Spiels verwendet werden, wie z.B. die Noteneingabe,
+Leistungsübersicht, Schokolade essen, Rest, Random event, User Input usw.
+
+### Textdateien:
+
+1. **einfuehrung.txt**: Enthält die Nachricht, die dem Spieler zu Beginn
+des Spiels angezeigt wird.
+2. **noteneintragung.txt**: Enthält die Anweisungen, die angezeigt werden,
+wenn der Spieler die Noten eingeben möchte.
+3. **feedback_1.txt**: Die Nachricht, die bei der ersten Feedback-Sitzung
+erscheint.
+4. **feedback_2.txt**: Die Nachricht, die bei der zweiten Feedback-Sitzung
+angezeigt wird.
+5. **evaluation_erhalten.txt**: Die Nachricht, die beim Erhalten der Evaluation
+angezeigt wird.
+6. **ausruhen.txt**: Die Nachricht, die im 'Ausruhen'-Zustand angezeigt wird.
+7. **schokolade_essen.txt**: Die Nachricht, die im 'Schokolade essen'-Zustand
+angezeigt wird.
+
+## Befehle im Spiel
+
+Im Spiel können diese Befehle verwendet werden:
+
+- **grade**: Noteneintragung für die Studenten.
+- **give feedback**: Startet eine Feedback-Sitzung, nachdem alle Noten in der
+entsprechenden Runde eingetragen sind.
+- **inspect report**: Zeigt die Leistungsübersicht an.
+- **rest**: Gewinnt Energiepunkte zurück.
+- **eat chocolate**: Gewinnt Energie zurück (nur einmal pro Runde verfügbar).
+- **delay grade**: Startet eine Feedback-Sitzung, wenn keine Note in der
+entsprechenden Runde eingetragen ist.
+- **get eval**: Die Evaluationspunkte und die Leistungsübersicht werden
+angezeigt, wenn beide Feedback-Sitzungen abgeschlossen sind.
+- **exit**: Beendet das Spiel.
+- **play again**: Startet ein neues Spiel.
+
+## Installation
+
+Für dieses Programm wird Python 3 benötigt. Bevor du das Spiel startest,
+stelle sicher, dass du alle notwendigen Pakete installiert hast.
+
+### Erforderliche Pakete:
+
+Das Programm benutzt nur die eingebauten Python-Bibliotheken und Module,
+wie `time`, `random`, 're', 'nltk'.
+
+## Spiel starten
+
+1. Lade alle `.py` und `.txt` Dateien in den gleichen Ordner herunter.
+2. Öffne ein Terminal oder eine Kommandozeile.
+3. Gehe zu dem Ordner, in dem sich die Dateien befinden.
+4. Starte das Spiel, indem du den folgenden Befehl in das Terminal eingibst:
+
+   ```bash
+   python main.py

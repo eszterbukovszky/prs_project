@@ -1,0 +1,8 @@
+Wilkommen zu der ersten Feedback-Sitzung!
+Im Folgenden werden die Studenten 3 schwierige Fragen stellen, und du musst
+deren Thema erraten, und dadurch Evaluationspunkte sammeln.
+Pro Frage hast du 3 Versuche und darfst jeweils einen Tipp verwenden durch den
+"clarify"-Befehl, wenn du nicht weiterkommst.
+Achtung! Du darfst dir aber nicht zu lange überlegen: bei jeder Eingabe hast
+du genau 1 Minute das Thema zu erraten.
+Viel Erfolg!
